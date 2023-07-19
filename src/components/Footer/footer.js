@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import "./Footer.css";
 
-export default function footer() {
+export default function Footer() {
   return (
-    <div>Mighty Author Name</div>
-  )
+    <footer>
+      <p>&#169; Mi</p>
+    </footer>
+  );
 }

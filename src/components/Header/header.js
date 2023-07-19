@@ -1,9 +1,10 @@
-import React from 'react'
-import "./header.css";
+import React from "react";
+import "./Header.css";
 
-export default function header() {
+export default function Header() {
   return (
-    <div><h1>This is my mighty title!!</h1></div>
-  )
+    <header>
+      <h1>Fear my Mighty Title!!</h1>
+    </header>
+  );
 }
-
