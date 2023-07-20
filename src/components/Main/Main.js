@@ -36,6 +36,8 @@ export default function Main({ data, handleModal }) {
       <HornedBeast title={data[17].title} imgUrl={data[17].image_url} description={data[17].description} />
       <HornedBeast title={data[18].title} imgUrl={data[18].image_url} description={data[18].description} />
       <HornedBeast title={data[19].title} imgUrl={data[19].image_url} description={data[19].description} /> */}
+      
+      
       {data.map((beast, key) => {
         return (
           <HornedBeast
